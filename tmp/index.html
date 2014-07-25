@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<style type="text/css">
+	@font-face {
+	 font-family: Nce;
+	 src: url("nce.eot"); /* EOT for IE */
+	}
+	@font-face {
+	 font-family: Nce;
+	 src: url("nce.ttf"); /* TTF for CSS3 */
+	}
+</style>
+
+
+<script type="text/javascript" src="qnml.min.js"></script>
+<script type="text/javascript" src="nce.min.js"></script>
+<body>
+	<div id="cEditor">
+		
+	</div>
+</body>
+
+<script type="text/javascript">
+
+	var $ = function(id){
+		return document.getElementById(id);
+	}
+
+	var demo = new nce.create($("cEditor"),'js')
+
+</script>
+</html>
