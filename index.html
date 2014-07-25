@@ -3,19 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 </head>
+<style type="text/css">
+	@font-face {
+	 font-family: Nce;
+	 src: url("nce.eot"); /* EOT for IE */
+	}
+	@font-face {
+	 font-family: Nce;
+	 src: url("nce.ttf"); /* TTF for CSS3 */
+	}
+</style>
+
+
+<script type="text/javascript" src="../dest/qnml.js"></script>
+<script type="text/javascript" src="dest/nce.js"></script>
 <body>
 	<div id="cEditor">
 		
 	</div>
 </body>
-<script type="text/javascript" src="nce.js"></script>
+
 <script type="text/javascript">
 
 	var $ = function(id){
 		return document.getElementById(id);
 	}
 
-	new nce.create($("cEditor"),'js')
+	var demo = new nce.create($("cEditor"),'js')
 
 </script>
 </html>

@@ -12,23 +12,26 @@
 		margin: 0px;
 		word-wrap:break-word;
 		border: 0px;
-		font-family: Monaco, "Liberation Mono", Courier, monospace;
 	}
 	.ce-dis{
-		z-index: 999;
+		z-index: 222;
 		pointer-events:none;
 		position: absolute;
 		top:0px;
 		left: 0px;
 		text-shadow:0 0 5px #fff;
+		font-family: Consolas, "Liberation Mono", Courier, monospace;
 	}
 	.ce-ipt{
-		outline: none;
+		outline: none; 
 		resize:none;
 		background-color: transparent; 
-		color: #999;
 		overflow: hidden;
-		color: #ccc;
-		padding-left: 50px;
+		color: #000;
+		margin-left: 40px;
+		border-left:1px solid #ccc;
+		padding-left:10px;
+		vertical-align:bottom;
+		font-family: Nce,Consolas, "Liberation Mono", Courier, monospace;
 	}
 </template>
